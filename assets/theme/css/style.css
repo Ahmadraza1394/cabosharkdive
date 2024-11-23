@@ -354,7 +354,8 @@ figure[mbr-media-size] {
 }
 @media (max-width: 480px) {
   .mbr-figure {
-    height: 180px !important;
+    height: 180px;
+    /* margin-top: -20px; */
   }
 }
 
