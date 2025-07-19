@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architecture Hero</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white font-sans">
+    <!-- Header -->
+    <header class="absolute top-0 left-0 w-full z-10 bg-black">
+      <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-6">
+        <div class="flex items-center gap-2">
+          <div class="w-6 h-6 bg-white rounded-sm"></div>
+          <span class="text-xl font-bold text-white">RETIRIO</span>
+        </div>
+        <nav class="hidden md:flex gap-6 text-sm text-white">
+          <a href="#" class="hover:text-gray-300">HOME</a>
+          <a href="#" class="hover:text-gray-300">PAGES</a>
+          <a href="#" class="hover:text-gray-300">SERVICES</a>
+          <a href="#" class="hover:text-gray-300">PROJECTS</a>
+          <a href="#" class="hover:text-gray-300">SHOP</a>
+          <a href="#" class="hover:text-gray-300">BLOG</a>
+        </nav>
+        <div class="md:hidden">
+          <button class="text-white text-2xl">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative h-screen bg-cover bg-center flex items-center justify-start px-6 md:px-12"
+      style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1950&q=80');"
+    >
+      <div class="max-w-3xl mt-20 md:mt-0">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+          Unique modern<br />
+          <span class="text-yellow-400">design</span>
+          <span class="text-white">aesthetic</span>
+        </h1>
+        <div class="mt-8">
+          <a
+            href="#"
+            class="inline-block bg-white text-black px-6 py-3 font-semibold text-sm hover:bg-gray-200 transition-all relative"
+          >
+            VIEW PROJECTS
+            <span
+              class="absolute bottom-0 left-0 w-2 h-1 bg-yellow-400"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Interior Section -->
+<section class="bg-white py-16 px-4 md:px-12">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-10">
+      <!-- Left Side (Images) -->
+      <div class="relative w-full lg:w-1/2">
+        <img
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1950&q=80"
+          alt="Interior main"
+          class="rounded-lg shadow-xl"
+        />
+        <div class="absolute -bottom-10 left-4 flex gap-4">
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1950&q=80"
+            class="w-28 h-20 object-cover rounded-md shadow-md"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1950&q=80"
+            class="w-28 h-20 object-cover rounded-md shadow-md"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1950&q=80"
+            class="w-28 h-20 object-cover rounded-md shadow-md"
+          />
+        </div>
+      </div>
+  
+      <!-- Right Side (Text) -->
+      <div class="w-full lg:w-1/2">
+        <p class="text-sm text-gray-500 font-medium uppercase mb-2">About Interior</p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-snug">
+          We provide the best<br />
+          architect & interior<br />
+          design <span class="border-b-4 border-yellow-400 inline-block">services</span>
+        </h2>
+  
+        <div class="bg-white shadow-md p-4 mt-6 border-l-4 border-yellow-500">
+          <p class="text-gray-900 font-medium">
+            Our signature design process comes standard...refresh, remodel, new and enjoyable design experience
+          </p>
+        </div>
+  
+        <p class="mt-6 text-gray-600">
+          Duis mollis varius quam sed congue. Aliquam porttitor orci ultricies porttitor elementum. Nullam pretium id massa ut
+          placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        </p>
+  
+        <button
+          class="mt-6 px-6 py-3 bg-yellow-400 text-white font-semibold text-sm rounded hover:bg-yellow-500 transition-all shadow-md"
+        >
+          MORE DETAIL
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Services Section -->
+<section class="bg-gray-50 py-16 px-4 md:px-12">
+    <div class="max-w-7xl mx-auto">
+      <!-- Top Heading -->
+      <div class="flex flex-col lg:flex-row justify-between items-start gap-6 mb-12">
+        <div>
+          <p class="uppercase text-sm text-gray-500 font-semibold">Services We Do</p>
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
+            Our highlighted services<br />
+            for interior <span class="inline-block border-b-4 border-yellow-400">design</span>
+          </h2>
+        </div>
+        <p class="text-gray-500 max-w-xl">
+          Duis mollis varius quam sed congue. Aliquam porttitor ultricies porttitor elementum. Nullam pretium id massa ut
+          placerat. Class aptent taciti sociosqu ad litora.
+        </p>
+      </div>
+  
+      <!-- Service Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white shadow-md p-6 relative group">
+          <img src="https://img.icons8.com/ios/50/building.png" class="w-12 mb-4" />
+          <h3 class="font-bold text-lg text-gray-900">Architecture</h3>
+          <p class="text-gray-500 mt-2">Nunc eleifend eget nunc eget consequat. Etiam sed varius est. Proin et lacus odio.</p>
+          <button
+            class="absolute bottom-4 right-4 bg-white hover:bg-yellow-400 hover:text-white border p-2 rounded transition"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+  
+        <!-- Card 2 (Dark active card) -->
+        <div class="bg-gray-900 text-white p-6 relative group">
+          <img src="https://img.icons8.com/ios/50/FFD700/sofa.png" class="w-12 mb-4" />
+          <h3 class="font-bold text-lg">Interior work</h3>
+          <p class="text-gray-300 mt-2">Nunc eleifend eget nunc eget consequat. Etiam sed varius est. Proin et lacus odio.</p>
+          <button
+            class="absolute bottom-4 right-4 bg-yellow-400 text-white p-2 rounded transition hover:bg-yellow-500"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="bg-white shadow-md p-6 relative group">
+          <img src="https://img.icons8.com/ios/50/construction.png" class="w-12 mb-4" />
+          <h3 class="font-bold text-lg text-gray-900">Renovation</h3>
+          <p class="text-gray-500 mt-2">Nunc eleifend eget nunc eget consequat. Etiam sed varius est. Proin et lacus odio.</p>
+          <button
+            class="absolute bottom-4 right-4 bg-white hover:bg-yellow-400 hover:text-white border p-2 rounded transition"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+  
+        <!-- Card 4 -->
+        <div class="bg-white shadow-md p-6 relative group">
+          <img src="https://img.icons8.com/ios/50/room.png" class="w-12 mb-4" />
+          <h3 class="font-bold text-lg text-gray-900">Decor & art</h3>
+          <p class="text-gray-500 mt-2">Nunc eleifend eget nunc eget consequat. Etiam sed varius est. Proin et lacus odio.</p>
+          <button
+            class="absolute bottom-4 right-4 bg-white hover:bg-yellow-400 hover:text-white border p-2 rounded transition"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  </body>
+</html>
